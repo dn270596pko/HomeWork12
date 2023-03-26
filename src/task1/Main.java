@@ -10,7 +10,6 @@ public class Main {
         elapsedThread.start();
         messageThread.start();
     }
-
     private static class ElapsedTimePrinter implements Runnable {
         @Override
         public void run() {
@@ -21,9 +20,10 @@ public class Main {
                 long minutes = TimeUnit.MILLISECONDS.toMinutes(elapsedTime) % 60;
                 long seconds = TimeUnit.MILLISECONDS.toSeconds(elapsedTime) % 60;
 
-                String timeString = String.format("%02d год. %02d хв. %02d сек.", hours, minutes, seconds);
-
-                System.out.println("Час роботи програми: " + timeString);
+                if (seconds % 5 != 0) {
+                    String timeString = String.format("%02d год. %02d хв. %02d сек.", hours, minutes, seconds);
+                    System.out.println("Час роботи програми: " + timeString);
+                }
 
                 try {
                     Thread.sleep(1000);

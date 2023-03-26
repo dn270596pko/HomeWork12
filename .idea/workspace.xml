@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cafe1695-e87f-4b32-81e7-7a20ba437aa7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HomeWork12.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/task1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/task2/FizzBuzzMultithreaded.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task1/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +46,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.FizzBuzzMultithreaded">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="FizzBuzzMultithreaded" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="task2.FizzBuzzMultithreaded" />
       <module name="HomeWork12" />
@@ -82,8 +75,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FizzBuzzMultithreaded" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.FizzBuzzMultithreaded" />
       </list>
     </recent_temporary>
   </component>
@@ -95,7 +88,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1679832799613</updated>
-      <workItem from="1679832800771" duration="1735000" />
+      <workItem from="1679832800771" duration="6561000" />
     </task>
     <servers />
   </component>
